@@ -7,12 +7,14 @@ import { ChatboardComponent } from './chatboard';
 import { ChatmessageComponent } from './chatmessage';
 import { AvatarComponent } from './avatar';
 import { UserComponent } from './user';
+import { ProfileViewComponent } from './profile-view/profile-view.component';
 
 const components = [
   ChatboardComponent,
   ChatmessageComponent,
   AvatarComponent,
   UserComponent,
+  ProfileViewComponent
 ];
 
 @NgModule({
